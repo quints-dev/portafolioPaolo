@@ -1,9 +1,8 @@
-import { useContext } from "react";
-import { ThemeContext } from "../context/themeContext";
 import { Moon, Sun } from "lucide-react";
+import { useDarkMode } from "../hooks/darkMode";
 
-const ThemeToggle = () => {
-  const { darkMode, setDarkMode } = useContext(ThemeContext);
+const Switch = () => {
+  const [darkMode, setDarkMode] = useDarkMode();
 
   return (
     <button
@@ -16,4 +15,4 @@ const ThemeToggle = () => {
   );
 };
 
-export default ThemeToggle;
+export default Switch;
