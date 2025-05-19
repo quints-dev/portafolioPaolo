@@ -24,7 +24,7 @@ const projects = [
     tags: ["React", "Tailwind CSS", "JavaScript"],
     image: "/images/spotifyClone.png",
     code: "https://github.com/quints-dev/spotifyClone",
-    live: "https://spotifyclonepaolo.netlify.app/", // actualízalo si es necesario
+    live: "https://spotify-clone-lime-gamma.vercel.app/", // actualízalo si es necesario
   },
   {
     title: "Animales Salvajes",
