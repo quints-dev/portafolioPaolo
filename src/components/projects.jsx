@@ -4,42 +4,45 @@ const projects = [
   {
     title: "Clin!",
     descripcion:
-      "CLIN! es una aplicación móvil de billetera digital diseñada para el mercado chileno, inspirada en la popular aplicación peruana Yape. El objetivo principal de CLINI es facilitar las transacciones financieras entre usuarios de manera rápida, segura y sencilla, utilizando códigos QR y números de teléfono como identificadores.",
+      "CLIN! es una billetera digital para Chile, inspirada en Yape. Permite transacciones con QR y número de teléfono.",
     tags: ["Figma", "Prototipo", "UX/UI"],
     image: "/images/CLIN!.png",
-    link: "https://www.figma.com/design/QQsg5M15xPqTO36xmqObct/clin-ux-ui?node-id=0-1&t=vnaZu7lZ9Gqb6Aa0-1",
+    live: "https://www.figma.com/design/QQsg5M15xPqTO36xmqObct/clin-ux-ui?node-id=0-1",
   },
   {
     title: "eShop Reimaginada",
     descripcion:
-      "Proyecto de reimaginación de la tienda eshop de Nintendo, con un enfoque movil y una experiencia de usuario optimizada. El objetivo es mejorar la navegación, la presentación de productos y la interacción del usuario con la tienda.",
+      "Reimaginación de la Nintendo eShop con enfoque móvil y mejor experiencia de usuario.",
     tags: ["Figma", "Prototipo", "UX/UI"],
     image: "/images/eshop.png",
-    link: "https://www.figma.com/design/kVw7rt0d9IGGrqA6zsSkin/newEshop?node-id=0-1&t=RdDew8yxcozPyjWj-1",
+    live: "https://www.figma.com/design/kVw7rt0d9IGGrqA6zsSkin/newEshop?node-id=0-1",
   },
   {
     title: "Spotify clone",
     descripcion:
-      "Clone de la aplicación Spotify, desarrollado con React y Tailwind CSS. El proyecto incluye una interfaz de usuario similar a la de Spotify, con funcionalidades básicas como reproducción de música y gestión de listas de reproducción.",
+      "Clon visual de Spotify hecho con React y Tailwind. Fiel a la interfaz original.",
     tags: ["React", "Tailwind CSS", "JavaScript"],
     image: "/images/spotifyClone.png",
-    link: "https://github.com/quints-dev/spotifyClone",
+    code: "https://github.com/quints-dev/spotifyClone",
+    live: "https://spotifyclonepaolo.netlify.app/", // actualízalo si es necesario
   },
   {
     title: "Animales Salvajes",
     descripcion:
-      "Aplicación web HTML,CSS y JavaScript que permite a los usuarios explorar una variedad de animales salvajes. La aplicación incluye información detallada sobre cada animal, como su edad, tipo y sonido.",
+      "App web en HTML, CSS y JS para explorar animales salvajes, con sonidos e info básica.",
     tags: ["HTML", "CSS", "JavaScript"],
     image: "/images/animales.png",
-    link: "https://github.com/quints-dev/animalesSalvajes/blob/main/assets/css/estilos.css",
+    code: "https://github.com/quints-dev/animalesSalvajes",
+    live: "https://animalessalvajes.netlify.app/", // si está publicado
   },
   {
-    title: "Api Rick & Morty",
+    title: "API Rick & Morty",
     descripcion:
-      "Proyecto de consumo de la API de Rick & Morty, desarrollado con React. El proyecto incluye una interfaz de usuario que permite a los usuarios explorar personajes, episodios y ubicaciones de la serie.",
+      "App React para explorar personajes y episodios desde la API oficial de Rick & Morty.",
     tags: ["React", "API", "JavaScript"],
     image: "/images/rick.png",
-    link: "https://rickmortyapi-sooty.vercel.app/",
+    code: "https://github.com/quints-dev/rickmortyapi",
+    live: "https://rickmortyapi-sooty.vercel.app/",
   },
 ];
 
@@ -49,27 +52,28 @@ const Projects = () => {
       id="projects"
       className="py-20 px-6 md:px-20 bg-gray-100 dark:bg-zinc-900"
     >
-      <h2 className="text-3xl md:text-5xl font-bold text-center mb-12">
+      <h2 className="text-3xl md:text-5xl font-bold text-center mb-12 text-zinc-900 dark:text-white">
         Proyectos
       </h2>
       <div className="grid md:grid-cols-2 gap-10">
         {projects.map((project, index) => (
-          <a
+          <div
             key={index}
-            href={project.link}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="group bg-white dark:bg-zinc-800 rounded-2xl overflow-hidden shadow hover:shadow-xl transition duration-300"
+            className="bg-white dark:bg-zinc-800 rounded-2xl overflow-hidden shadow hover:shadow-xl transition duration-300"
           >
             <img
               src={project.image}
               alt={project.title}
-              className="h-48 w-full object-cover group-hover:scale-105 transition-transform duration-300"
+              className="h-48 w-full object-cover"
             />
             <div className="p-6">
-              <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
-              <p className="text-sm mb-4">{project.descripcion}</p>
-              <div className="flex flex-wrap gap-2">
+              <h3 className="text-xl font-semibold mb-2 text-zinc-900 dark:text-white">
+                {project.title}
+              </h3>
+              <p className="text-sm text-zinc-700 dark:text-zinc-300 mb-4">
+                {project.descripcion}
+              </p>
+              <div className="flex flex-wrap gap-2 mb-4">
                 {project.tags.map((tag, idx) => (
                   <span
                     key={idx}
@@ -79,8 +83,26 @@ const Projects = () => {
                   </span>
                 ))}
               </div>
+              <div className="flex gap-4">
+                <a
+                  href={project.code}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm px-4 py-2 bg-zinc-900 text-white dark:bg-white dark:text-black rounded hover:opacity-80 transition"
+                >
+                  Ver código
+                </a>
+                <a
+                  href={project.live}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition"
+                >
+                  Ver online
+                </a>
+              </div>
             </div>
-          </a>
+          </div>
         ))}
       </div>
     </section>
