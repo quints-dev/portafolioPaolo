@@ -1,12 +1,28 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite + React</title>
+    <script>
+      if (
+        window.matchMedia &&
+        window.matchMedia("(prefers-color-scheme: dark)").matches
+      ) {
+        document.documentElement.classList.add("dark");
+      }
+    </script>
   </head>
   <body>
+    <style>
+      body {
+        background-color: #000; /* fallback en caso que Tailwind no cargue a tiempo */
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>

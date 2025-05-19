@@ -13,26 +13,26 @@ const Contact = () => {
           type="text"
           name="name"
           placeholder="Nombre"
-          className="w-full px-4 py-2 rounded-md border dark:border-white border-black"
+          className="w-full px-4 py-3 rounded-md border border-gray-300 dark:border-gray-600 bg-white text-black dark:bg-zinc-800 dark:text-white"
           required
         />
         <input
           type="email"
           name="email"
           placeholder="Correo"
-          className="w-full px-4 py-2 rounded-md border dark:border-white border-black"
+          className="w-full px-4 py-3 rounded-md border border-gray-300 dark:border-gray-600 bg-white text-black dark:bg-zinc-800 dark:text-white"
           required
         />
         <textarea
           name="message"
           placeholder="Mensaje"
           rows="5"
-          className="w-full px-4 py-2 rounded-md border dark:border-white border-black"
+          className="w-full px-4 py-3 rounded-md border border-gray-300 dark:border-gray-600 bg-white text-black dark:bg-zinc-800 dark:text-white"
           required
         ></textarea>
         <button
           type="submit"
-          className="bg-black dark:bg-white text-white dark:text-black px-6 py-2 rounded-md hover:opacity-90 transition"
+          className="bg-black dark:bg-white text-white dark:text-black px-6 py-3 rounded-md hover:opacity-90 transition"
         >
           Enviar
         </button>
