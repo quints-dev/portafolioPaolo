@@ -7,7 +7,7 @@ const Hero = () => {
         Hi, I'm <span className="text-purple-900">Paolo Quintiliani</span>
       </h1>
       <p className="text-xl md:text-2xl font-light mb-6">
-        UX/UI Designer & Full-Stack JavaScript Developer
+        UX/UI Designer & Front End JavaScript Developer
       </p>
       <a
         href="#projects"
