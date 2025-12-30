@@ -17,19 +17,21 @@ const About = () => {
         </h2>
         <div className="max-w-4xl mx-auto text-lg leading-relaxed space-y-6">
           <p>
-            Soy <strong>Paolo Quintiliani</strong>, diseñador UX y desarrollador
-            web en constante aprendizaje. Me especializo en crear experiencias
-            digitales simples, funcionales y centradas en las personas.
+            Soy <strong>Paolo Quintiliani</strong>, Desarrollador Front End,
+            Administrador Cloud Practitioner AWS en constante aprendizaje. Me
+            especializo en crear experiencias digitales simples, funcionales y
+            centradas en las personas.
           </p>
           <p>
             He trabajado en proyectos como <em>Clin</em> (una billetera digital
-            para Chile) y varios ejercicios de diseño y desarrollo full stack.
+            para Chile), Una Pokédex consumiendo Api Rest y entre otros
+            ejercicios de diseño, desarrollo y documentación.
           </p>
           <p>
             Combino herramientas como <strong>Figma</strong>,{" "}
             <strong>React</strong>, <strong>Node.js</strong>, y{" "}
             <strong>Tailwind CSS</strong> para diseñar y construir productos
-            digitales.
+            digitales. Actualmente aprendiendo <strong>Angular</strong>
           </p>
           <p>
             También soy fan de la tecnología, los videojuegos, y las interfaces

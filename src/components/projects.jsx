@@ -2,6 +2,16 @@ import React from "react";
 
 const projects = [
   {
+    title: "Pokédex",
+    descripcion:
+      "Proyecto Pokédex inspirado en la estética de la Pokédex clásica y la pantalla de Game Boy Advance, desarrollado como ejercicio de front-end y consumo de APIs, con foco en UI retro y arquitectura limpia en React.",
+    tags: ["React", "CSS", "JavaScript", "UI", "API REST", "PokeApi"],
+    image:
+      "/public/images/video-games-minimalism-pokemon-nintendo-poke-ball-hd-wallpaper-preview.jpg",
+    code: "https://github.com/quints-dev/pokedexGba",
+    live: "https://pokedex-kappa-sepia.vercel.app/",
+  },
+  {
     title: "Clin!",
     descripcion:
       "CLIN! es una billetera digital para Chile, inspirada en Yape. Permite transacciones con QR y número de teléfono.",
