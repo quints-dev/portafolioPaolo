@@ -6,7 +6,7 @@ const projects = [
     descripcion:
       "Proyecto Pokédex inspirado en la estética de la Pokédex clásica y la pantalla de Game Boy Advance, desarrollado como ejercicio de front-end y consumo de APIs, con foco en UI retro y arquitectura limpia en React.",
     tags: ["React", "CSS", "JavaScript", "UI", "API REST", "PokeApi"],
-    image: "/public/images/pokedex.jpg",
+    image: "/images/pokedex.jpg",
     code: "https://github.com/quints-dev/pokedexGba",
     live: "https://pokedex-kappa-sepia.vercel.app/",
   },
