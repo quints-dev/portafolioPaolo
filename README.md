@@ -1,12 +1,65 @@
-# React + Vite
+# 👋 Hola, soy Paolo Quintiliani
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Soy **UX Developer y Front-End Developer en formación**, apasionado por crear experiencias digitales claras, funcionales y con identidad. Vengo del cruce entre **diseño UX** y **desarrollo web**, donde me interesa no solo que las cosas funcionen, sino que se sientan bien al usarse.
 
-Currently, two official plugins are available:
+Actualmente me enfoco en seguir fortaleciendo mis habilidades en **front-end moderno**, diseño centrado en el usuario y construcción de interfaces limpias, accesibles y coherentes.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🧠 Sobre mí
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Entusiasta del aprendizaje constante en tecnología y diseño  
+- Interesado en la experiencia de usuario, micro-interacciones y diseño minimalista  
+- Me gusta trabajar con foco en detalle, estructura y claridad  
+- Busco crecer como **UX Developer**, integrando diseño y código en proyectos reales  
+
+---
+
+## 🛠️ Conocimientos y tecnologías
+
+### Front-End
+- HTML5  
+- CSS3 (Flexbox, Grid, responsive design)  
+- JavaScript (ES6+)  
+- React (en aprendizaje y práctica constante)  
+
+### UX / UI
+- Diseño centrado en el usuario (UX)  
+- Wireframes y prototipos de baja y alta fidelidad  
+- Arquitectura de la información  
+- Heurísticas de usabilidad  
+- Diseño visual y sistemas de diseño básicos  
+
+### Back-End (base)
+- Node.js  
+- Express  
+- APIs REST  
+- CRUD y modelado básico de bases de datos  
+
+### Herramientas
+- Git & GitHub  
+- Figma  
+- VS Code  
+- Framer (para prototipos y exploración visual)  
+
+---
+
+## 🚀 Qué encontrarás en este portafolio
+
+- Proyectos de **front-end** y **UX**  
+- Experimentos de interfaz y clonados visuales  
+- Aprendizajes aplicados de diseño y desarrollo  
+- Evolución real de mi camino como desarrollador y diseñador  
+
+Este portafolio es un espacio vivo: se actualiza a medida que aprendo, pruebo y mejoro.
+
+---
+
+## 📫 Contacto
+
+Si te interesa mi perfil o quieres conversar:
+
+- LinkedIn: *(https://www.linkedin.com/in/paoloquintilianis/)*  
+- Email: *paoloquintiliani91@gmail.com*  
+
+Gracias por pasar por aquí 🙌
