@@ -59,7 +59,7 @@ Este portafolio es un espacio vivo: se actualiza a medida que aprendo, pruebo y 
 
 Si te interesa mi perfil o quieres conversar:
 
-- LinkedIn: *(https://www.linkedin.com/in/paoloquintilianis/)*  
+- LinkedIn: *https://www.linkedin.com/in/paoloquintilianis/*  
 - Email: *paoloquintiliani91@gmail.com*  
 
 Gracias por pasar por aquí 🙌
